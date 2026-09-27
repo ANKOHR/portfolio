@@ -80,6 +80,7 @@ a:focus-visible { outline: 2px solid var(--amber); outline-offset: 4px; }
 .small-project { align-items: center; border-bottom: 1px solid var(--line); border-top: 1px solid var(--line); display: grid; gap: 40px; grid-template-columns: .8fr 1.3fr auto; margin-top: 72px; padding: 36px 0; }
 .small-project h3 { font-size: 28px; letter-spacing: -.04em; margin: 10px 0 0; }
 .small-project > p { color: var(--muted); margin: 0; max-width: 620px; }
+.small-project-links { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
 .capabilities-section { background: #091523; max-width: none; padding-left: max(clamp(20px,6vw,96px),calc((100vw - 1440px)/2 + 96px)); padding-right: max(clamp(20px,6vw,96px),calc((100vw - 1440px)/2 + 96px)); }
 .capability-grid { border-left: 1px solid var(--line); display: grid; grid-template-columns: repeat(2,1fr); }
 .capability { align-items: baseline; border-bottom: 1px solid var(--line); border-right: 1px solid var(--line); display: flex; gap: 28px; padding: 25px 28px; }
